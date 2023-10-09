@@ -35,3 +35,51 @@
   object-fit: cover;
   border: 1px solid #000;
 }
+
+@media screen and (max-width: 1024px) {
+  .navbar__left h1 {
+    font-size: 30px;
+  }
+
+  .navbar__right h1 {
+    font-size: 18px;
+  }
+
+  .navbar__image {
+    width: 42px;
+    height: 42px;
+    margin: 0 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__left h1 {
+    font-size: 28px;
+  }
+
+  .navbar__right h1 {
+    font-size: 16px;
+  }
+
+  .navbar__image {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar__left h1 {
+    font-size: 24px;
+  }
+
+  .navbar__right h1 {
+    font-size: 16px;
+  }
+
+  .navbar__image {
+    width: 36px;
+    height: 36px;
+    margin: 0 8px;
+  }
+}
