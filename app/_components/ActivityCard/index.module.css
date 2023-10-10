@@ -1,0 +1,37 @@
+.ActivityCard {
+  width: 100%;
+  height: auto;
+  margin-top: 28px;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.ActivityCard__Heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ActivityCard__Heading p {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.ActivityCard__Container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .ActivityCard {
+    margin-top: 24px;
+  }
+
+  .ActivityCard h1 {
+    font-size: 22px;
+  }
+}

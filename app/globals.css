@@ -101,9 +101,16 @@ section {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-left: 8%;
 }
 
 a {
   text-decoration: none;
   color: #000;
+}
+
+@media screen and (max-width: 425px) {
+  section {
+    margin-left: 0;
+  }
 }

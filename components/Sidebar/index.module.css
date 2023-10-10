@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: fixed;
 }
 
 .sidebar__logo {
@@ -99,7 +100,7 @@
 
 @media screen and (max-width: 425px) {
   .sidebar {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: auto;
     flex-direction: row;

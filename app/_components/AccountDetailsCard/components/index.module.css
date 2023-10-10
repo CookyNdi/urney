@@ -1,0 +1,53 @@
+.AccountDetailsCard__Wrapper {
+  width: 50%;
+  height: auto;
+  margin-top: 12px;
+}
+
+.AccountDetailsCard__Subtitle {
+  font-size: 18px;
+  color: #AEAEAE;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.AccountDetailsCard__Title {
+  font-size: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .AccountDetailsCard__Wrapper {
+    margin-top: 8px;
+  }
+
+  .AccountDetailsCard__Subtitle {
+    font-size: 14px;
+  }
+
+  .AccountDetailsCard__Title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AccountDetailsCard__Wrapper {
+    margin-top: 6px;
+  }
+
+  .AccountDetailsCard__Subtitle {
+    font-size: 12px
+  }
+
+  .AccountDetailsCard__Title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .AccountDetailsCard__Wrapper {
+    margin-top: 10px;
+  }
+}
