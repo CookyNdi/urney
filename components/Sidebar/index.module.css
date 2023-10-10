@@ -1,0 +1,141 @@
+.sidebar {
+  height: 100dvh;
+  width: 8%;
+  background: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+}
+
+.sidebar__logo {
+  font-size: 36px;
+  padding: 35px;
+}
+
+.sidebar__menu {
+  font-size: 32px;
+}
+
+.sidebar__menu__logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+
+.sidebar__menu__logo_Active::after {
+  content: '';
+  position: absolute;
+  bottom: -10%;
+  left: 45%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.sidebar__menu__title {
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  left: 120%;
+  font-size: 14px;
+  font-weight: 700;
+  transition: opacity 200ms ease;
+}
+
+.sidebar__menu__logo:hover {
+  transform: scale(1.5);
+  transition: ease-in-out 200ms;
+}
+
+.sidebar__menu__logo:hover .sidebar__menu__title {
+  transition: opacity 500ms ease;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .sidebar__logo {
+    font-size: 32px;
+    padding: 35px;
+  }
+
+  .sidebar__menu {
+    font-size: 28px;
+  }
+
+  .sidebar__menu__title {
+    font-size: 12px;
+  }
+
+  .sidebar__menu__logo_Active::after {
+    bottom: -15%;
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar__logo {
+    font-size: 26px;
+    padding: 35px;
+  }
+
+  .sidebar__menu {
+    font-size: 22px;
+  }
+
+  .sidebar__menu__title {
+    font-size: 10px;
+  }
+
+  .sidebar__menu__logo_Active::after {
+    bottom: -20%;
+    left: 42%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sidebar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    bottom: 0;
+    left: 0;
+  }
+
+  .sidebar__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    font-size: 28px;
+  }
+
+  .sidebar__logo {
+    display: none;
+  }
+
+  .sidebar__menu__logo {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+
+  .sidebar__menu__title {
+    display: none;
+  }
+
+  .sidebar__menu__logo:hover {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sidebar__menu__logo {
+    font-size: 28px;
+  }
+}
