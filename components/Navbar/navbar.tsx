@@ -3,7 +3,7 @@ import React from "react";
 import Style from "./index.module.css";
 import { usePathname } from "next/navigation";
 
-export default function Navbar() {
+const Navbar = () => {
   const path = usePathname();
   let navTitle = "";
   if (path === "/") {
@@ -22,4 +22,6 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
+
+export default Navbar;

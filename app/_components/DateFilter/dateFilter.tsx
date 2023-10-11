@@ -3,7 +3,7 @@ import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import { AiOutlineCalendar } from "react-icons/ai";
 import Style from "./index.module.css";
 
-export default function DateFilter() {
+const DateFilter = () => {
   return (
     <div className={Style.dateFilter}>
       <div className={Style.dateFilter__arrow}>
@@ -18,4 +18,6 @@ export default function DateFilter() {
       </div>
     </div>
   );
-}
+};
+
+export default DateFilter;

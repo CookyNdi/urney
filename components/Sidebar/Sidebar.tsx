@@ -7,7 +7,7 @@ import { PiGearSixBold } from "react-icons/pi";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-export default function Sidebar() {
+const Sidebar = () => {
   const path = usePathname();
   return (
     <div className={Style.sidebar}>
@@ -38,4 +38,6 @@ export default function Sidebar() {
       </ul>
     </div>
   );
-}
+};
+
+export default Sidebar;

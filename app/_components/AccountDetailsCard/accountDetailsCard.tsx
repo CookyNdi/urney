@@ -3,7 +3,7 @@ import Style from "./index.module.css";
 import { dataContens } from "@/libs/AccountDetailsDataContens";
 import AccountDetailsContent from "./AccountDetailsContent/accountDetailsContent";
 
-export default function AccountDetailsCard() {
+const AccountDetailsCard = () => {
   return (
     <div className={Style.AccountDetailsCard}>
       <h1>Account Details</h1>
@@ -14,4 +14,6 @@ export default function AccountDetailsCard() {
       </div>
     </div>
   );
-}
+};
+
+export default AccountDetailsCard;

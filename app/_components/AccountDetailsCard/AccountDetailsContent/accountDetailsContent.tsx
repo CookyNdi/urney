@@ -11,15 +11,15 @@ interface dataProps {
   }[];
 }
 
-export default function AccountDetailsContent({ contentData }: { contentData: dataProps }) {
-  return (
-    <>
-      <div className={Style.AccountDetailsCard__Wrapper}>
-        <p className={Style.AccountDetailsCard__Subtitle}>
-          {contentData.title} <AiOutlineQuestionCircle />
-        </p>
-        <h1 className={Style.AccountDetailsCard__Title}>{contentData.datas[0].price}</h1>
-      </div>
-    </>
-  );
-}
+const AccountDetailsContent: React.FC<{ contentData: dataProps }> = ({ contentData }) => (
+  <>
+    <div className={Style.AccountDetailsCard__Wrapper}>
+      <p className={Style.AccountDetailsCard__Subtitle}>
+        {contentData.title} <AiOutlineQuestionCircle />
+      </p>
+      <h1 className={Style.AccountDetailsCard__Title}>{contentData.datas[0].price}</h1>
+    </div>
+  </>
+);
+
+export default AccountDetailsContent;

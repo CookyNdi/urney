@@ -5,7 +5,7 @@ import AccountDetails from "./_components/AccountDetailsCard/accountDetailsCard"
 import StatisticCard from "./_components/StatisticCard/statisticCard";
 import ActivityCard from "./_components/ActivityCard/activityCard";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={Style.home}>
       <DateFilter />
@@ -16,4 +16,6 @@ export default function Home() {
       <StatisticCard />
     </div>
   );
-}
+};
+
+export default Home;

@@ -4,7 +4,7 @@ import HeaderContent from "./_components/HeaderContent/headerContent";
 import OutlaysContentCardLeft from "./_components/OutlaysContentCardLeft/outlaysContentCardLeft";
 import OutlaysContentCardRight from "./_components/OutlaysContentCardRight/outlaysContentCardRight";
 
-export default function Outlays() {
+const Outlays = () => {
   return (
     <div className={Style.outlays__container}>
       <HeaderContent />
@@ -18,4 +18,6 @@ export default function Outlays() {
       </div>
     </div>
   );
-}
+};
+
+export default Outlays;
