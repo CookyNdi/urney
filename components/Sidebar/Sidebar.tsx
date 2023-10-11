@@ -16,9 +16,9 @@ const Sidebar = () => {
       </div>
       <ul className={Style.sidebar__menu}>
         <Link
-          href={"/"}
+          href={"/home"}
           scroll={false}
-          className={`${Style.sidebar__menu__logo} ${path === "/" ? Style.sidebar__menu__logo_Active : ""}`}
+          className={`${Style.sidebar__menu__logo} ${path === "/home" ? Style.sidebar__menu__logo_Active : ""}`}
         >
           <AiOutlineHome />
           <h1 className={`${Style.sidebar__menu__title}`}>Home</h1>

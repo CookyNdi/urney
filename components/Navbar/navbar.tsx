@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const path = usePathname();
   let navTitle = "";
-  if (path === "/") {
+  if (path === "/home") {
     navTitle = "Overview";
   } else if (path === "/outlays") {
     navTitle = "Outlays Details";
