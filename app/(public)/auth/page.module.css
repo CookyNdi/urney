@@ -1,0 +1,25 @@
+.Auht {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Auth__Container {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGIN CSS */
+
+
+
+/* REGISTER CSS */

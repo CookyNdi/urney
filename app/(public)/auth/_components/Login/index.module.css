@@ -1,0 +1,66 @@
+.Auth__Login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Auth_login_Visible {
+  display: flex;
+}
+
+.Auth__Login_Disable {
+  display: none;
+}
+
+.Auth__Login__Left {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 60px;
+}
+
+.Auth__Login__Left h1 {
+  margin-bottom: 12px;
+}
+
+.Auth__Login__Left__Form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Auth__Login__Left__Form input,
+.Auth__Login__Left__Form button,
+.Auth__Login__Left__Button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.Auth__Login__Left__Button {
+  margin-bottom: 0;
+  margin-top: 24px;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.Auth__Login__Right {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 60px;
+}
