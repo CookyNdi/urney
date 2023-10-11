@@ -7,8 +7,10 @@ const MainPage = () => {
     <div className={Style.MainPage}>
       <div className={Style.MainPage__Wraper}>
         <h1>A better way to manage your finance future with urney</h1>
-        <Link href={"/auth?page=register"}>Get Started</Link>
-        <Link href={"/auth?page=login"}>Login</Link>
+        <div className={Style.MainPage__Wraper__Button}>
+          <Link href={"/auth?page=register"}>Get Started</Link>
+          <Link href={"/auth?page=login"}>Login</Link>
+        </div>
       </div>
     </div>
   );

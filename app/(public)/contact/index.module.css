@@ -1,4 +1,4 @@
-.MainPage {
+.ContactUs {
   width: 100%;
   height: 100dvh;
   display: flex;
@@ -7,17 +7,11 @@
   text-align: center;
 }
 
-.MainPage__Wraper {
+.ContactUs__Wraper {
   width: 50%;
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.MainPage__Wraper__Button {
-  display: flex;
-  gap: 12px;
-  margin-top: 12px;
 }

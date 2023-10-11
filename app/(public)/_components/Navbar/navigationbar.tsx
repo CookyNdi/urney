@@ -8,8 +8,8 @@ const Navigationbar = () => {
       <h1>Logo</h1>
       <ul className={Style.Navigationbar_List}>
         <Link href={"/"}>Home</Link>
-        <Link href={"/"}>About Us</Link>
-        <Link href={"/"}>Contact Us</Link>
+        <Link href={"/about"}>About Us</Link>
+        <Link href={"/contact"}>Contact Us</Link>
       </ul>
       <Link href={"/auth?page=login"}>login</Link>
     </div>
