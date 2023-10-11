@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./index.module.css";
-import RowsActivityCard from "./components/rowsActivityCard";
+import RowsActivityCard from "./RowsActivityCard/rowsActivityCard";
 
 const ActivityCard = () => {
   return (

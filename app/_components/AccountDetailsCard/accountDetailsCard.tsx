@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./index.module.css";
 import { dataContens } from "@/libs/AccountDetailsDataContens";
-import AccountDetailsContent from "./components/accountDetailsContent";
+import AccountDetailsContent from "./AccountDetailsContent/accountDetailsContent";
 
 export default function AccountDetailsCard() {
   return (
