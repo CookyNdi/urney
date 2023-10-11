@@ -7,6 +7,10 @@
   border-radius: 12px;
 }
 
+.AccountDetailsCard__HeadTitle {
+  font-size: 20px;
+}
+
 .AccountDetailsCard__Container {
   width: 100%;
   display: flex;
@@ -18,7 +22,33 @@
     margin-top: 24px;
   }
 
-  .AccountDetailsCard h1 {
-    font-size: 22px;
+  .AccountDetailsCard__HeadTitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AccountDetailsCard__HeadTitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .AccountDetailsCard {
+    margin-top: 18px;
+  }
+
+  .AccountDetailsCard__HeadTitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .AccountDetailsCard {
+    margin-top: 16px;
+  }
+
+  .AccountDetailsCard__HeadTitle {
+    font-size: 16px;
   }
 }

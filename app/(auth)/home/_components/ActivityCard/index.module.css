@@ -11,10 +11,15 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.ActivityCard__Heading__Title {
+  font-size: 20px;
 }
 
 .ActivityCard__Heading p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-decoration-line: underline;
   cursor: pointer;
@@ -27,11 +32,65 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .ActivityCard__Heading {
+    margin-bottom: 4px;
+  }
+
   .ActivityCard {
     margin-top: 24px;
   }
 
-  .ActivityCard h1 {
-    font-size: 22px;
+  .ActivityCard__Heading__Title {
+    font-size: 18px;
+  }
+
+  .ActivityCard__Heading p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ActivityCard__Heading {
+    margin-bottom: 4px;
+  }
+
+  .ActivityCard {
+    margin-top: 24px;
+  }
+
+  .ActivityCard__Heading__Title {
+    font-size: 16px;
+  }
+
+  .ActivityCard__Heading p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ActivityCard {
+    margin-top: 18px;
+  }
+
+  .ActivityCard__Heading__Title {
+    font-size: 18px;
+  }
+
+  .ActivityCard__Heading p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ActivityCard {
+    margin-top: 16px;
+  }
+
+  .ActivityCard__Heading__Title {
+    font-size: 16px;
+  }
+
+  .ActivityCard__Heading p {
+    font-size: 10px;
   }
 }

@@ -6,7 +6,7 @@ const ActivityCard = () => {
   return (
     <div className={Style.ActivityCard}>
       <div className={Style.ActivityCard__Heading}>
-        <h1>Recent Activity</h1>
+        <h1 className={Style.ActivityCard__Heading__Title}>Recent Activity</h1>
         <p>More Activity</p>
       </div>
       <div className={Style.ActivityCard__Container}>
