@@ -1,6 +1,6 @@
 .sidebar {
   height: 100dvh;
-  width: 8%;
+  width: 6%;
   background: #fff;
   color: #000;
   display: flex;
@@ -10,12 +10,12 @@
 }
 
 .sidebar__logo {
-  font-size: 36px;
-  padding: 35px;
+  font-size: 32px;
+  padding: 28px 0;
 }
 
 .sidebar__menu {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .sidebar__menu__logo {
@@ -30,8 +30,8 @@
 .sidebar__menu__logo_Active::after {
   content: '';
   position: absolute;
-  bottom: -10%;
-  left: 45%;
+  bottom: -12%;
+  left: 43%;
   width: 4px;
   height: 4px;
   border-radius: 50%;
@@ -43,7 +43,7 @@
   position: absolute;
   top: 25%;
   left: 120%;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   transition: opacity 200ms ease;
 }
@@ -60,16 +60,20 @@
 
 @media screen and (max-width: 1024px) {
   .sidebar__logo {
-    font-size: 32px;
-    padding: 35px;
+    font-size: 28px;
+    padding: 26px 0;
   }
 
   .sidebar__menu {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .sidebar__menu__title {
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .sidebar__menu__logo {
+    margin-bottom: 28px;
   }
 
   .sidebar__menu__logo_Active::after {
@@ -79,9 +83,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .sidebar {
+    width: 8%;
+  }
+
   .sidebar__logo {
     font-size: 26px;
-    padding: 35px;
+    padding: 24px 0;
   }
 
   .sidebar__menu {
@@ -93,8 +101,10 @@
   }
 
   .sidebar__menu__logo_Active::after {
-    bottom: -20%;
-    left: 42%;
+    bottom: -15%;
+    left: 43%;
+    width: 3px;
+    height: 3px;
   }
 }
 
@@ -112,8 +122,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 32px;
-    font-size: 28px;
+    padding: 18px 32px;
+    font-size: 24px;
   }
 
   .sidebar__logo {
@@ -122,7 +132,7 @@
 
   .sidebar__menu__logo {
     margin-bottom: 0;
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .sidebar__menu__title {
@@ -136,6 +146,6 @@
 
 @media screen and (max-width: 375px) {
   .sidebar__menu__logo {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
