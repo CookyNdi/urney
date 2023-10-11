@@ -1,0 +1,14 @@
+.Navigationbar {
+  width: 100%;
+  height: auto;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.Navigationbar_List {
+  display: flex;
+  gap: 24px;
+}

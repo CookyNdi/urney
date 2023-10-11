@@ -1,15 +1,17 @@
-import Link from "next/link";
 import React from "react";
+import Style from "./page.module.css";
+import Link from "next/link";
 
-const page = () => {
+const MainPage = () => {
   return (
-    <div style={{ margin: "auto" }}>
-      <h1>Halaman Awal</h1>
-      <Link href={"/auth?page=login"}>Login</Link>
-      <br />
-      <Link href={"home"}>Home</Link>
+    <div className={Style.MainPage}>
+      <div className={Style.MainPage__Wraper}>
+        <h1>A better way to manage your finance future with urney</h1>
+        <Link href={"/auth?page=register"}>Get Started</Link>
+        <Link href={"/auth?page=login"}>Login</Link>
+      </div>
     </div>
   );
 };
 
-export default page;
+export default MainPage;

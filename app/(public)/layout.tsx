@@ -1,5 +1,6 @@
 import "../globals.css";
 import { Inter } from "next/font/google";
+import Navigationbar from "./_components/Navbar/navigationbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +13,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>{children}</main>
+        <main style={{ flexDirection: "column" }}>
+          <Navigationbar />
+          {children}
+        </main>
       </body>
     </html>
   );
