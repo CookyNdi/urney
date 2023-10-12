@@ -24,3 +24,71 @@
   border: 1px solid #aeaeae;
   outline: none;
 }
+
+.HeaderContent__form__date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.HeaderContent__form__date h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .HeaderContent__form input[type="text"] {
+    padding: 6px;
+  }
+
+  .HeaderContent__form input[type="date"] {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .HeaderContent__form__date {
+    gap: 8px;
+  }
+
+  .HeaderContent__form input[type="text"] {
+    width: 40%;
+    padding: 5px;
+  }
+
+  .HeaderContent__form input[type="date"] {
+    padding: 4px;
+  }
+
+  .HeaderContent__form__date h1 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .HeaderContent__form {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .HeaderContent__form__date {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .HeaderContent__form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .HeaderContent__form input[type="date"] {
+    width: 100%;
+    padding: 4px;
+  }
+
+  .HeaderContent__form__date h1 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

@@ -5,7 +5,11 @@ const HeaderContent = () => {
     <div className={Style.HeaderContent}>
       <form className={Style.HeaderContent__form}>
         <input type="text" placeholder="Search Activity" />
-        <input type="date" />
+        <div className={Style.HeaderContent__form__date}>
+          <input type="date" />
+          <h1>-</h1>
+          <input type="date" />
+        </div>
       </form>
     </div>
   );

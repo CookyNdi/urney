@@ -8,11 +8,11 @@ const Outlays = () => {
   return (
     <div className={Style.outlays__container}>
       <HeaderContent />
-      <div className={Style.content_wrapper}>
-        <div className={Style.content__left}>
+      <div className={Style.outlays__content_wrapper}>
+        <div className={Style.outlays__content__left}>
           <OutlaysContentCardLeft />
         </div>
-        <div className={Style.content__right}>
+        <div className={Style.outlays__content__right}>
           <OutlaysContentCardRight />
         </div>
       </div>

@@ -1,21 +1,36 @@
 .outlays__container {
   padding: 0 5%;
   position: relative;
+  padding-bottom: 160px;
 }
 
-.content_wrapper {
+.outlays__content_wrapper {
   width: 100%;
   display: flex;
   gap: 8px;
 }
 
-.content__right {
+.outlays__content__right {
   width: 30%;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
 }
 
-.content__left {
+.outlays__content__left {
   width: 70%;
+}
+
+@media screen and (max-width: 425px) {
+  .outlays__content_wrapper {
+    flex-direction: column;
+  }
+
+  .outlays__content__right {
+    width: 100%;
+  }
+
+  .outlays__content__left {
+    width: 100%;
+  }
 }
