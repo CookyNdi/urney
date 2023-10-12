@@ -6,26 +6,26 @@
 }
 
 .dateFilter__arrow {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   background-color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
 .dateFilter__date {
   display: flex;
   align-items: center;
-  font-size: 28px;
+  font-size: 24px;
   margin: 0 10px;
 }
 
 .dateFilter__date h1 {
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 8px;
 }
 

@@ -1,7 +1,7 @@
 .AccountDetailsCard {
   width: 100%;
   height: auto;
-  margin-top: 28px;
+  margin-top: 20px;
   background-color: #fff;
   padding: 24px;
   border-radius: 12px;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 1024px) {
   .AccountDetailsCard {
-    margin-top: 24px;
+    margin-top: 20px;
   }
 
   .AccountDetailsCard__HeadTitle {
@@ -28,6 +28,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .AccountDetailsCard {
+    margin-top: 18px;
+  }
+
   .AccountDetailsCard__HeadTitle {
     font-size: 16px;
   }
