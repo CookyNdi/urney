@@ -14,7 +14,7 @@
 }
 
 .navbar__left h1 {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .navbar__right {
@@ -23,15 +23,15 @@
 }
 
 .navbar__right h1 {
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
 }
 
 .navbar__image {
-  width: 44px;
-  height: 44px;
-  margin: 0 12px;
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid #000;
@@ -39,48 +39,48 @@
 
 @media screen and (max-width: 1024px) {
   .navbar__left h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .navbar__right h1 {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .navbar__image {
-    width: 42px;
-    height: 42px;
-    margin: 0 12px;
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar__left h1 {
-    font-size: 28px;
+    font-size: 18px;
   }
 
   .navbar__right h1 {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .navbar__image {
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
     margin: 0 10px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .navbar__left h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .navbar__right h1 {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .navbar__image {
-    width: 36px;
-    height: 36px;
+    width: 26px;
+    height: 26px;
     margin: 0 8px;
   }
 }
