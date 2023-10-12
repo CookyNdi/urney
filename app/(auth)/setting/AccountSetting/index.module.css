@@ -1,0 +1,19 @@
+.Setting__Container {
+  width: 100%;
+  height: 100%;
+}
+
+.Setting__Container input,
+.Setting__Container button {
+  padding: 8px;
+}
+
+.Setting__HeadTitle {
+  margin-bottom: 10px;
+}
+
+.Setting__Form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

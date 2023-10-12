@@ -31,7 +31,7 @@ const Sidebar = () => {
           <BiWallet />
           <h1 className={Style.sidebar__menu__title}>Outlays</h1>
         </Link>
-        <Link href={"/"} scroll={false} className={Style.sidebar__menu__logo}>
+        <Link href={"/setting"} scroll={false} className={Style.sidebar__menu__logo}>
           <PiGearSixBold />
           <h1 className={Style.sidebar__menu__title}>Setting</h1>
         </Link>
